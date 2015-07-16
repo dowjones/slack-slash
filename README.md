@@ -1,6 +1,16 @@
 #slack-slash
 
-Slack-Slash is a simple framework for handling slash commands in [Slack](https://slack.com/). Configure your commands and handlers in one JSON file and the framework does the rest.
+Slack-Slash is a simple framework for handling [slash commands](https://api.slack.com/slash-commands) in [Slack](https://slack.com/). Configure your commands and handlers in one JSON file and the framework does the rest.
+
+## What's a Slash Command?
+
+**/:command [text]**
+
+> Slash commands listen for custom triggers in chat messages across all Slack channels.
+
+> For example, typing **/weather 94070** could send a message to an external URL that would look up the current weather forecast for San Francisco and post it back to the user in Slack.
+
+For more information check out the [Slack API Documentation](https://api.slack.com/slash-commands).
 
 ## Adding Handlers
 
