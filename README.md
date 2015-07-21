@@ -63,11 +63,12 @@ module.exports = slashHandler;
 
 var slashHandler = function (token, options) {
   this.token = token;
+  this.options = options;
 }
 
 slashHandler.prototype.handle = function (req, cb) {
   var bodyText = req.body.text;
-  return 'Received commmand with text: ' + bodyText;
+  cb(null, 'Received commmand with text: ' + bodyText);
 };
 ```
 
