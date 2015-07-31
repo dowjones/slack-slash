@@ -74,7 +74,7 @@ slashHandler.prototype.handle = function (req, cb) {
 
 **Handler Arguments**
 
-These arguments are defined in `hanlders.json` and get passed into your handler.
+These arguments are defined in `handlers.json` and get passed into your handler.
 
 - `token` - Token string from configured Slack integration. The token is used to validate requests came from Slack.
 - `options` - Optional object with any properties you need to pass to your handler.
