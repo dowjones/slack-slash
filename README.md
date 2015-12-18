@@ -64,8 +64,6 @@ module.exports = slashHandler;
 var slashHandler = function (token, options) {
   this.token = token;
   this.options = options;
-  this.filePath = options.ssFilePath;
-  this.publicPath = options.ssPublicPath;
 }
 
 slashHandler.prototype.handle = function (req, handleCb) {
@@ -97,7 +95,6 @@ slashHandler.prototype.handle = function (req, handleCb) {
       }
     ]
   });
->>>>>>> updated docs
 };
 ```
 
