@@ -1,11 +1,12 @@
 {
   "name": "slack-slash",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Framework for handling slash commands in Slack",
   "author": "Adam Gruber",
   "license": "MIT",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "lint": "eslint server.js routes/**/index.js"
   },
   "keywords": [
     "slack",
@@ -17,12 +18,15 @@
     "cookie-parser": "~1.0.1",
     "debug": "~0.7.4",
     "express": "~4.2.0",
-    "lodash": "^3.3.1",
+    "lodash": "^3.10.1",
     "morgan": "~1.0.0",
     "nconf": "^0.7.1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/dowjones/slack-slash"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3"
   }
 }
