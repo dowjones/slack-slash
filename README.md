@@ -1,4 +1,4 @@
-#slack-slash
+# slack-slash
 
 Slack-Slash is a simple framework for handling [slash commands](https://api.slack.com/slash-commands) in [Slack](https://slack.com/). Configure your commands and handlers in one JSON file and the framework does the rest.
 
